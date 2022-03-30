@@ -26,3 +26,5 @@ ls -la . .. /boot - list in long format, including hidden files, the contents of
 file tmp/iamafile - prints the type of the file named iamafile stored in the tmp directory
 
 ln -s /bin/ls __ls__ - create a symbolic link named __ls__ to /bin/ls in the working directory
+
+cp *.html .. Copies all html files from the current working directory to the parent of the working directory
