@@ -24,3 +24,5 @@ cd -  changes the working directory to the previous one
 ls -la . .. /boot - list in long format, including hidden files, the contents of the current directory, its parent directory and the boot directory
 
 file tmp/iamafile - prints the type of the file named iamafile stored in the tmp directory
+
+ln -s /bin/ls __ls__ - create a symbolic link named __ls__ to /bin/ls in the working directory
