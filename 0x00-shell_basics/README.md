@@ -22,3 +22,5 @@ rm -r /tmp/my_first_directory - deletes the directory my_first_directory from th
 cd -  changes the working directory to the previous one
 
 ls -la . .. /boot - list in long format, including hidden files, the contents of the current directory, its parent directory and the boot directory
+
+file tmp/iamafile - prints the type of the file named iamafile stored in the tmp directory
