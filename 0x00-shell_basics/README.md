@@ -20,3 +20,5 @@ rm /tmp/my_first_directory/betty - deletes the file betty
 rm -r /tmp/my_first_directory - deletes the directory my_first_directory from the tmp directory
 
 cd -  changes the working directory to the previous one
+
+ls -la . .. /boot - list in long format, including hidden files, the contents of the current directory, its parent directory and the boot directory
