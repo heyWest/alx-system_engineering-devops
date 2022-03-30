@@ -8,3 +8,5 @@ cd ~ -changes working directory to user home directory
 ls -l - display current directory contents in a long format
 
 ls -la Display current directory contents, including hidden files in long format
+
+ls -lan Display current directory in long format, with user and group IDs displayed numerically and include hidden files as well
