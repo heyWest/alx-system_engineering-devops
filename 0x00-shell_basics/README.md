@@ -18,3 +18,5 @@ mv /tmp/betty /tmp/my_first_directory -moves the file betty from tmp folder to m
 rm /tmp/my_first_directory/betty - deletes the file betty
 
 rm -r /tmp/my_first_directory - deletes the directory my_first_directory from the tmp directory
+
+cd -  changes the working directory to the previous one
