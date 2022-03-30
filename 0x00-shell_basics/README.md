@@ -32,3 +32,7 @@ cp *.html .. Copies all html files from the current working directory to the par
 mv [[:upper:]]* /tmp/u - moves all files beginning with an uppercase letter to the directory /tmp/u
 
 rm *~ - deletes all files in the current working directory that end with the character ~
+
+mkdir -p welcome/to/school - create directories welcome/, welcom/to, and welcome/to/school in the current directory
+
+ls -m Lists all the files and directories of the current directory, separated by commas
