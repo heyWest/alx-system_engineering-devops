@@ -18,3 +18,5 @@ chmod 111 hello - adds execution permission to the owner, the group owner and th
 chmod 007 hello - set the permissions to the file hello with no permission to the owner and group owner but all permissions to the other users
 
 chmod 753 hello - set all permission to owner, read and execute permissions to group owner and then write and execute permissions to the other users
+
+chmod --reference=olleh hello - sets the mode of the file hello the same as the file olleh
