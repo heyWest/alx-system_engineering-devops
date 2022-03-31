@@ -14,3 +14,7 @@ chmod 100 hello - adds execute permission to the owner of the file hello
 chmod 114 hello - adds execute permission to the owner and the group owner and read permission to the other users, to the file hello
 
 chmod 111 hello - adds execution permission to the owner, the group owner and the other users, to the file hello
+
+chmod 007 hello - set the permissions to the file hello with no permission to the owner and group owner but all permissions to the other users
+
+chmod 753 hello - set all permission to owner, read and execute permissions to group owner and then write and execute permissions to the other users
