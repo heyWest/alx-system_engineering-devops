@@ -22,3 +22,5 @@ chmod 753 hello - set all permission to owner, read and execute permissions to g
 chmod --reference=olleh hello - sets the mode of the file hello the same as the file olleh
 
 mkdir -m 751 my_dir -creates a directory called my_dir with permissions 751 in the working directory
+
+chgrp school hello - changes the group owner to school for the file hello
