@@ -20,3 +20,5 @@ chmod 007 hello - set the permissions to the file hello with no permission to th
 chmod 753 hello - set all permission to owner, read and execute permissions to group owner and then write and execute permissions to the other users
 
 chmod --reference=olleh hello - sets the mode of the file hello the same as the file olleh
+
+mkdir -m 751 my_dir -creates a directory called my_dir with permissions 751 in the working directory
